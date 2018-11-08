@@ -10,45 +10,25 @@
 
 </head>
 
+<h1>Word Guess Game</h1>
+
 <body>
-    <!-- Pick a random word
-        While the word has not been guessed {
-         Show the player their current progress
-         Get a guess from the player
-         If the player wants to quit the game {
-         Quit the game
-         }
-         Else If the guess is not a single letter {
-         Tell the player to pick a single letter
-         }
-         Else {
-         If the guess is in the word {
-         Update the player's progress with the guess
-         }
-         }
+    <script>
+
+        var foods = ["bacon", "steak", "tacos", "cheese", "donuts", "pizza"]
+
+        var randomChoice = Math.floor(Math.random() * foods.length);
+
+        var chosenWord = foods[randomChoice];
+
+        console.log(chosenWord);
+
+        for (let i = 0; i < foods.length; i++) {
+            const element = foods [i];
+            
         }
-        Congratulate the player on guessing the word
 
- -->
-
-    <script type="text/javascript">
-
-        var = foods [
-        "bacon",
-        "tacos",
-        "steak",
-        "soup",
-        "popcorn",
-        "cheese",
-        "barbeque"
-        ];
-
-        var = foods = foods[math.floor(math.random() * foods.length)];
-
-        var = dashes = [];
-            for (let i =  < foods.length; i++) {
-                dashes[_] = foods;   
-            }
+        
 
 
 
